@@ -5,6 +5,43 @@ html {
   box-sizing: inherit;
 }
 
+#main-title {
+    border: solid black 10px;
+    width: 430px;
+    margin: 80px auto;
+    background-color: rgb(151, 19, 188);
+    padding: 20px;
+    color: yellow;
+}
+
+#my-first-div {
+    display: inline-block;
+width: 400px;
+height: 300px;
+margin: 100px 0;
+background-color: rgb(30, 9, 213);
+padding: 30px;
+border: solid yellow 10px;
+}
+
+#shite {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    margin: 0 30px;
+    border: black solid 20px;
+    padding: 30px;
+
+}
+
+.listspan {
+    display: inline-block;
+    border: solid black 2px;
+    padding: 0 8px;
+    width: 80px;
+color: pink;
+}
+
 body {
     background-color: #1aa599;
 }
@@ -51,4 +88,8 @@ img {
 
 .description {
     color: black;
+}
+
+a {
+    color: yellow;
 }
